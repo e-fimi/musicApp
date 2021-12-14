@@ -10,9 +10,22 @@
 		04CABAAF276154FD00568991 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CABAAE276154FD00568991 /* AppDelegate.swift */; };
 		04CABAB1276154FD00568991 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CABAB0276154FD00568991 /* SceneDelegate.swift */; };
 		04CABAB3276154FD00568991 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CABAB2276154FD00568991 /* ViewController.swift */; };
-		04CABAB6276154FD00568991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CABAB4276154FD00568991 /* Main.storyboard */; };
 		04CABAB82761550400568991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CABAB72761550400568991 /* Assets.xcassets */; };
 		04CABABB2761550400568991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CABAB92761550400568991 /* LaunchScreen.storyboard */; };
+		04CABAC8276158D200568991 /* bensound-buddy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04CABAC5276158D100568991 /* bensound-buddy.mp3 */; };
+		04CABAC9276158D200568991 /* bensound-acousticbreeze.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04CABAC6276158D200568991 /* bensound-acousticbreeze.mp3 */; };
+		04CABACA276158D200568991 /* bensound-cute.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04CABAC7276158D200568991 /* bensound-cute.mp3 */; };
+		04CABACE2761591100568991 /* bensound-betterdays.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04CABACB2761591000568991 /* bensound-betterdays.mp3 */; };
+		04CABACF2761591100568991 /* bensound-epic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04CABACC2761591100568991 /* bensound-epic.mp3 */; };
+		04CABAD02761591100568991 /* bensound-memories.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04CABACD2761591100568991 /* bensound-memories.mp3 */; };
+		04CABAD42761593C00568991 /* bensound-thejazzpiano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04CABAD12761593B00568991 /* bensound-thejazzpiano.mp3 */; };
+		04CABAD52761593C00568991 /* bensound-jazzyfrenchy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04CABAD22761593C00568991 /* bensound-jazzyfrenchy.mp3 */; };
+		04CABAD62761593C00568991 /* bensound-allthat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04CABAD32761593C00568991 /* bensound-allthat.mp3 */; };
+		04CABAD9276159F200568991 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CABAD8276159F200568991 /* Song.swift */; };
+		04CABADB27615A4C00568991 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CABADA27615A4C00568991 /* Album.swift */; };
+		04CABADE2762209E00568991 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CABADD2762209E00568991 /* AlbumTableViewCell.swift */; };
+		04CABAE027622BBF00568991 /* MediaPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CABADF27622BBF00568991 /* MediaPlayer.swift */; };
+		04CABAE2276283B600568991 /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CABAE1276283B600568991 /* MusicPlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +33,23 @@
 		04CABAAE276154FD00568991 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04CABAB0276154FD00568991 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		04CABAB2276154FD00568991 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		04CABAB5276154FD00568991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04CABAB72761550400568991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04CABABA2761550400568991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04CABABC2761550400568991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CABAC5276158D100568991 /* bensound-buddy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-buddy.mp3"; sourceTree = "<group>"; };
+		04CABAC6276158D200568991 /* bensound-acousticbreeze.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-acousticbreeze.mp3"; sourceTree = "<group>"; };
+		04CABAC7276158D200568991 /* bensound-cute.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-cute.mp3"; sourceTree = "<group>"; };
+		04CABACB2761591000568991 /* bensound-betterdays.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-betterdays.mp3"; sourceTree = "<group>"; };
+		04CABACC2761591100568991 /* bensound-epic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-epic.mp3"; sourceTree = "<group>"; };
+		04CABACD2761591100568991 /* bensound-memories.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-memories.mp3"; sourceTree = "<group>"; };
+		04CABAD12761593B00568991 /* bensound-thejazzpiano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-thejazzpiano.mp3"; sourceTree = "<group>"; };
+		04CABAD22761593C00568991 /* bensound-jazzyfrenchy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-jazzyfrenchy.mp3"; sourceTree = "<group>"; };
+		04CABAD32761593C00568991 /* bensound-allthat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-allthat.mp3"; sourceTree = "<group>"; };
+		04CABAD8276159F200568991 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		04CABADA27615A4C00568991 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		04CABADD2762209E00568991 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		04CABADF27622BBF00568991 /* MediaPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayer.swift; sourceTree = "<group>"; };
+		04CABAE1276283B600568991 /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +82,68 @@
 		04CABAAD276154FD00568991 /* musicApp */ = {
 			isa = PBXGroup;
 			children = (
+				04CABADC2762208400568991 /* Views */,
+				04CABAD7276159DC00568991 /* Models */,
+				04CABAC42761589F00568991 /* Cinematic */,
+				04CABAC32761589600568991 /* Acoustic */,
+				04CABAC22761588800568991 /* Jazz */,
 				04CABAAE276154FD00568991 /* AppDelegate.swift */,
 				04CABAB0276154FD00568991 /* SceneDelegate.swift */,
 				04CABAB2276154FD00568991 /* ViewController.swift */,
-				04CABAB4276154FD00568991 /* Main.storyboard */,
+				04CABAE1276283B600568991 /* MusicPlayerViewController.swift */,
 				04CABAB72761550400568991 /* Assets.xcassets */,
 				04CABAB92761550400568991 /* LaunchScreen.storyboard */,
 				04CABABC2761550400568991 /* Info.plist */,
 			);
 			path = musicApp;
+			sourceTree = "<group>";
+		};
+		04CABAC22761588800568991 /* Jazz */ = {
+			isa = PBXGroup;
+			children = (
+				04CABAD32761593C00568991 /* bensound-allthat.mp3 */,
+				04CABAD22761593C00568991 /* bensound-jazzyfrenchy.mp3 */,
+				04CABAD12761593B00568991 /* bensound-thejazzpiano.mp3 */,
+			);
+			path = Jazz;
+			sourceTree = "<group>";
+		};
+		04CABAC32761589600568991 /* Acoustic */ = {
+			isa = PBXGroup;
+			children = (
+				04CABAC6276158D200568991 /* bensound-acousticbreeze.mp3 */,
+				04CABAC5276158D100568991 /* bensound-buddy.mp3 */,
+				04CABAC7276158D200568991 /* bensound-cute.mp3 */,
+			);
+			path = Acoustic;
+			sourceTree = "<group>";
+		};
+		04CABAC42761589F00568991 /* Cinematic */ = {
+			isa = PBXGroup;
+			children = (
+				04CABACB2761591000568991 /* bensound-betterdays.mp3 */,
+				04CABACC2761591100568991 /* bensound-epic.mp3 */,
+				04CABACD2761591100568991 /* bensound-memories.mp3 */,
+			);
+			path = Cinematic;
+			sourceTree = "<group>";
+		};
+		04CABAD7276159DC00568991 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04CABAD8276159F200568991 /* Song.swift */,
+				04CABADA27615A4C00568991 /* Album.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04CABADC2762208400568991 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04CABADD2762209E00568991 /* AlbumTableViewCell.swift */,
+				04CABADF27622BBF00568991 /* MediaPlayer.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +204,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CABACA276158D200568991 /* bensound-cute.mp3 in Resources */,
+				04CABACE2761591100568991 /* bensound-betterdays.mp3 in Resources */,
+				04CABACF2761591100568991 /* bensound-epic.mp3 in Resources */,
+				04CABAC9276158D200568991 /* bensound-acousticbreeze.mp3 in Resources */,
+				04CABAC8276158D200568991 /* bensound-buddy.mp3 in Resources */,
+				04CABAD52761593C00568991 /* bensound-jazzyfrenchy.mp3 in Resources */,
 				04CABABB2761550400568991 /* LaunchScreen.storyboard in Resources */,
+				04CABAD62761593C00568991 /* bensound-allthat.mp3 in Resources */,
+				04CABAD42761593C00568991 /* bensound-thejazzpiano.mp3 in Resources */,
 				04CABAB82761550400568991 /* Assets.xcassets in Resources */,
-				04CABAB6276154FD00568991 /* Main.storyboard in Resources */,
+				04CABAD02761591100568991 /* bensound-memories.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +225,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CABAD9276159F200568991 /* Song.swift in Sources */,
+				04CABAE027622BBF00568991 /* MediaPlayer.swift in Sources */,
 				04CABAB3276154FD00568991 /* ViewController.swift in Sources */,
 				04CABAAF276154FD00568991 /* AppDelegate.swift in Sources */,
 				04CABAB1276154FD00568991 /* SceneDelegate.swift in Sources */,
+				04CABADB27615A4C00568991 /* Album.swift in Sources */,
+				04CABADE2762209E00568991 /* AlbumTableViewCell.swift in Sources */,
+				04CABAE2276283B600568991 /* MusicPlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		04CABAB4276154FD00568991 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04CABAB5276154FD00568991 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04CABAB92761550400568991 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +378,7 @@
 				INFOPLIST_FILE = musicApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +406,7 @@
 				INFOPLIST_FILE = musicApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
